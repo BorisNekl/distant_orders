@@ -1,0 +1,29 @@
+﻿<Window x:Class="Distant_orders.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Distant_orders"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="461.702" Width="800.532">
+    <Grid Margin="0,0,0,1">
+        <Label x:Name="label_name" Content="Name" HorizontalAlignment="Left" Height="24" Margin="78,68,0,0" VerticalAlignment="Top" Width="43"/>
+        <Label x:Name="label_surname" Content="Surname" HorizontalAlignment="Left" Margin="64,95,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_phone" Content="Mobile phone" HorizontalAlignment="Left" Margin="37,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.032,-0.96"/>
+        <Label x:Name="label_mail" Content="e-mail" HorizontalAlignment="Left" Margin="78,156,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_title" Content="My Cart" HorizontalAlignment="Left" Margin="335,0,0,0" VerticalAlignment="Top" FontSize="24" FontStyle="Italic"/>
+        <Separator HorizontalAlignment="Left" Height="29" Margin="0,34,0,0" VerticalAlignment="Top" Width="793" RenderTransformOrigin="0.503,-0.537"/>
+        <TextBox x:Name="textBox_name" HorizontalAlignment="Left"  Height="24" Margin="148,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="557"/>
+        <TextBox x:Name="textBox_phone" HorizontalAlignment="Left" Height="24" Margin="148,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="557"/>
+        <TextBox x:Name="textBox_surname" HorizontalAlignment="Left" Height="24" Margin="148,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="557"/>
+        <TextBox x:Name="textBox_mail" HorizontalAlignment="Left" Height="24" Margin="148,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="557"/>
+        <Label x:Name="label_address" Content="Address" HorizontalAlignment="Left" Margin="68,187,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_address" HorizontalAlignment="Left" Height="24" Margin="148,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="557"/>
+        <Label x:Name="label_code" Content="Zip code" HorizontalAlignment="Left" Margin="65,218,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_code" HorizontalAlignment="Left" Height="24" Margin="148,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="557"/>
+        <Button x:Name="button_checkout" Content="CheckOut" HorizontalAlignment="Left" Margin="224,380,0,0" VerticalAlignment="Top" Width="305" Height="40" FontSize="16" FontWeight="Bold" Foreground="White" Background="#FF14E83B"/>
+        <CheckBox x:Name="checkBox_card" Content="by card" HorizontalAlignment="Left" Margin="148,249,0,0" VerticalAlignment="Top" Background="White"/>
+        <CheckBox x:Name="checkBox_cash" Content="by cash" HorizontalAlignment="Left" Margin="148,269,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_payment" Content="Payment" HorizontalAlignment="Right" Margin="0,251,673,0" VerticalAlignment="Top" RenderTransformOrigin="0.509,-0.167"/>
+    </Grid>
+</Window>
